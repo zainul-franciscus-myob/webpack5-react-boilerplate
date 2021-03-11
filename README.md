@@ -74,3 +74,14 @@ You can view the development server at `localhost:8080`.
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`optimize-css-assets-webpack-plugin`](https://github.com/NMFR/optimize-css-assets-webpack-plugin) - Optimize and minimize CSS assets
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
+
+
+
+###Steps
+
+Run this in the boilerplate project:
+npm run build
+npm link
+
+Run this in feelix ui playground project
+

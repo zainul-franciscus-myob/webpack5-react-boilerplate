@@ -4,10 +4,12 @@ const paths = require("./paths");
 module.exports = {
   mode: "production",
   // Where webpack looks to start building the bundle
-  entry: {
-    box: paths.src + "/Box.jsx",
-    button: paths.src + "/Button.jsx",
-  },
+  // entry: {
+  //   box: paths.src + "/Box.jsx",
+  //   button: paths.src + "/Button.jsx",
+  // },
+
+  entry: [paths.src + "/index.js"],
 
   // Where webpack outputs the assets and bundles
   output: {
